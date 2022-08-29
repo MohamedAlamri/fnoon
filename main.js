@@ -13,7 +13,7 @@ let randomImgs = () => {
         backInterval = setInterval(() => {
             let randomNum = Math.floor(Math.random() * imgsArray.length);
             landing.style.backgroundImage = 'url("imgs/'+ imgsArray[randomNum] + '")'
-        }, 1000)
+        }, 10000)
                 
     }
 }
